@@ -326,7 +326,7 @@ START:
             text.loadFromFile("resources\\wygrana.png");
             tekst.setTexture(text);
             okno.draw(tekst);
-            potw.loadFromFile("resources\\yes.png");
+            potw.loadFromFile("resources\\ye.png");
             ye.setTexture(potw);
             okno.draw(ye);
             potw.loadFromFile("resources\\nah.png");

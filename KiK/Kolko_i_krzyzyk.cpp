@@ -447,7 +447,7 @@ int KiK::minimax(int **plansza, int i, int j, int depth, bool isMax, int alpha, 
 	if (scores == -10) {
 		return scores + depth;
 	}
-	if (czykoniec() || depth == 3) { //sprawdzenie, czy s¹ jeszcze jakieœ ruchy, sprawdzenie g³êbokoœci
+	if (czykoniec() || depth == 4) { //sprawdzenie, czy s¹ jeszcze jakieœ ruchy, sprawdzenie g³êbokoœci
 		return 0;
 	}
 
